@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=, initial-scale=1.0"> <!-- full width-->
+        <title>Martin Di Peco - Full Stack & Game Developer</title>
+        <script src="./js/functions.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+        <link rel="icon" type="image/ico" href="./assets/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="STYLESHEET" href="./css/styles.css">
+    </head>
+    <body onload="insertContent()">
+
+        <!--Responsive navigation menu-->
+        <div class="nav-bar-resp" id="my-nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./works.html" class="active">Proyectos</a>
+            <a href="./about.html">Sobre mi</a>
+            <a href="./contact.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <main>
+            <div class="card-container">
+                <div class="card" id="card1">
+                    <h2><a href="./works01.html">Biblioteca</a></h2>
+                    <a href="./works01.html">
+                        <img id="portadas" src="./assets/img/mini-bibliotecaPortada2.jpg" alt="biblioteca consola" >
+                    </a>
+                    <p>
+                        <a href="./works01.html">Programa que administra una biblioteca de libros</a>
+                    </p>
+                </div>
+
+                <div class="card" id="card2">
+                    <h2><a href="./works02.html">Kong el kongquistador</a></h2>
+                    <a href="./works02.html">
+                        <img id="portadas" src="./assets/img/mini-KongPortada.jpg" alt="Kong-el-Kongquistador" >
+                    </a>
+                    <p><a href="./works01.html">Juego retro que incluye 3 minijuegos. Quark Game Jam #3</a>
+                    </p>
+                </div>
+
+                <div class="card" id="card3">
+                    <h2>
+                    <a href="./works03.html">
+                    Ahorcado</a></h2>
+                    <a href="./works03.html">
+                        <img id="portadas" src="./assets/img/mini-PortadaAhorcado.jpg" alt="Ahorcado" >
+                    </a>
+                    <p><a href="./works03.html">Minijuego Ahorcado, para la Quark Game Jam #3</a></p>
+                </div>
+                
+                <div class="card" id="card4">
+                    <h2>
+                    <a href="./works04.html">Academia de estudios</a>
+                    </h2>
+                    <a href="./works04.html">
+                        <img id="portadas" src="./assets/img/mini-PortadaAcademia2.jpg" alt="Portada academia" >
+                    </a>
+                    <p><a href="./works04.html">Web app para una academia, que administra materias y estudiantes</a></p>
+                </div>
+
+                <div class="card" id="card5">
+                    <h2>
+                    <a href="./works05.html">
+                    Farmacia Poison</a></h2>
+                    <a href="./works05.html">
+                        <img id="portadas" src="./assets/img/mini-PortadaPoison.jpg" alt="Farmacia Poison" >
+                    </a>
+                    <p><a href="./works05.html">Sitio web de una particular farmacia</a></p>
+                </div>
+
+                <div class="card" id="card6">
+                    <h2>
+                    <a href="./works06.html">
+                    Singletons</a></h2>
+                    <a href="./works06.html">
+                        <img id="portadas" src="./assets/img/mini-PortadaSingletons.jpg" alt="Singletons" >
+                    </a>
+                    <p><a href="./works06.html">Sitio de una banda de rock ficticia</a></p>
+                </div>
+            </div>
+        </main>
+        <hr class="hr-footer">
+        <footer>
+            <div id="footer">
+            </div>
+        </footer>
+
+    </body>
+
+</html>

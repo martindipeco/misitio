@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=, initial-scale=1.0"> <!-- full width-->
+        <title>Martin Di Peco - Full Stack & Game Developer</title>
+        <script src="./js/functions.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+        <link rel="icon" type="image/ico" href="./assets/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="STYLESHEET" href="./css/styles.css">
+    </head>
+    <body onload="insertContent()">
+
+        <!--Responsive navigation menu-->
+        <div class="nav-bar-resp" id="my-nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./works.html" class="active">Proyectos</a>
+            <a href="./about.html">Sobre mi</a>
+            <a href="./contact.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <main>
+            <div class="centered-box">
+                <h2>Academia de estudios</h2>
+                <p>Aplicación Web desarrollada como desafío final del curso CS50 de Harvard en la plataforma edX. Maneja el alta de usuarios, inscripción a materias, chequeo de horarios.
+                </p>
+                <a href="./assets/img/portadaAcademia.jpg" target="_blank">
+                <img class="img-works-big" id="biblioteca" src="./assets/img/portadaAcademia.jpg" alt="portada academia" >
+                </a>
+                <br>
+                <p>Tecnologías utilizadas: Flask, Python, JavaScript, HTML, CSS. IDE: VS Code Online. Mini base de datos con SQLite:</p>
+                <a href="https://drawsql.app/martindipeco/diagrams/ngo" target=“_blank”><img class="img-works-big" id="academia-sqlite" src="./assets/img/academia-sqlite.jpg" alt="biblioteca-uml" ></a>
+                <br/>
+                <p>Video presentación (inglés):</p>
+                <a href="https://youtu.be/VWNwXfzdy5k" target="_blank">
+                    <img class="img-works-big" id="academia" src="./assets/img/academia-youtube.jpg" alt="youtube academia" >
+                </a>
+                <br/>
+                <p>Repositorio del código fuente en Github:</p>
+                <p><a href="https://github.com/martindipeco/03-cs50-final_project"><img class="logo" src="./assets/img/code.svg" alt="coding logo"></a></p>
+                <br/>
+                <p>Descargar archivo:</p>
+                <p><a href="https://github.com/martindipeco/03-cs50-final_project/archive/refs/heads/main.zip"><img class="logo" src="./assets/img/download.svg" alt="download logo"></a></p>
+                <br/>
+                <p>Volver a Proyectos</p>
+                <p><a href="./works.html"><img class="logo" src="./assets/img/back-arrow-2-svgrepo-com.svg" alt="back arrow"></a></p>
+            </div>
+        </main>
+        <hr class="hr-footer">
+        <footer>
+            <div id="footer">
+            </div>
+        </footer>
+
+    </body>
+
+</html>

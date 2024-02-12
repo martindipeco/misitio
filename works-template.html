@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=, initial-scale=1.0"> <!-- full width-->
+        <title>Martin Di Peco - Full Stack & Game Developer</title>
+        <script src="./js/functions.js"></script>
+        <script src="./js/cards.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
+        <link rel="icon" type="image/ico" href="./assets/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="STYLESHEET" href="./css/styles.css">
+    </head>
+    <body onload="insertContent(); insertCardContent()">
+
+        <!--Responsive navigation menu-->
+        <div class="nav-bar-resp" id="my-nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./works.html" class="active">Proyectos</a>
+            <a href="./about.html">Sobre mi</a>
+            <a href="./contact.html">Contacto</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <main>
+            <div class="centered-box" id="js-card0">
+                <h2>Biblioteca de Libros</h2>
+                <p>Aplicación desarrollada como desafío final del curso de C# inicial de Quark Academy. Maneja el alta de distintos tipos de usuarios, controla los permisos para prestar libros de acuerdo a cantidades máximas por categorías. Creación de registros de títulos y ejemplares. Historial de préstamos y devoluciones
+                </p>
+                <br>
+                <a href="./assets/img/portadaBiblioteca.jpg" target="_blank">
+                <img class="img-works-big" id="biblioteca" src="./assets/img/portadaBiblioteca.jpg" alt="biblioteca consola"></a>
+                <br>
+                <p>Tecnologías utilizadas: C#, .NET 6, IDE Visual Studio 2022. Modelado de clases con Miro</p>
+                <a href="https://miro.com/app/board/uXjVMXEAzn4=/?share_link_id=421363637269" target=“_blank”><img class="img-works-big" id="biblioteca-uml" src="./assets/img/bibliotecaUML.jpg" alt="biblioteca-uml" ></a>
+                <br/>
+                <p>Video presentación:</p>
+                <div class="video-works" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/762e940ba7ba4ef394e531ad43233e6d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                <br/>
+                <p>Repositorio del código fuente en Github:</p>
+                <p><a href="https://github.com/martindipeco/booksLibrary"><img class="logo" src="./assets/img/code.svg" alt="coding logo"></a></p>
+                <br/>
+                <p>Descargar archivo:</p>
+                <p><a href="https://github.com/martindipeco/booksLibrary"><img class="logo" src="./assets/img/download.svg" alt="download logo"></a></p>
+                <br/>
+                <p>Volver a Proyectos</p>
+                <p><a href="./works.html"><img class="logo" src="./assets/img/back-arrow-2-svgrepo-com.svg" alt="back arrow"></a></p>
+            </div>
+        </main>
+        <hr class="hr-footer">
+        <footer>
+            <div id="footer">
+            </div>
+        </footer>
+
+    </body>
+
+</html>
