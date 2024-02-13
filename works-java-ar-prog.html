@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=, initial-scale=1.0"> <!-- full width-->
         <title>Martin Di Peco - proyectos de programación</title>
         <script src="./js/functions.js"></script>
+        <script src="./js/cards.js"></script>
         <noscript>You need to enable JavaScript to view the full site.</noscript>
         <link rel="icon" type="image/ico" href="./assets/favicon.ico">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -16,7 +17,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="STYLESHEET" href="./css/styles.css">
     </head>
-    <body onload="insertContent()">
+    <body onload="insertContent(); insertCardContent()">
 
         <!--Responsive navigation menu-->
         <div class="nav-bar-resp" id="my-nav-bar">
@@ -28,23 +29,25 @@
             </a>
         </div>
         <main>
-            <div class="centered-box">
-                <h2>Kong el Kongquistador</h2>
-                <p>Juego desarrollado para la Game Jam N°3 de Quark Academy, junto a Nicolás Quintana y Omar Moyano. El desafío consistió en entregar un juego en la consola de Windows con temática retro en el lapso de dos semanas. Sobre el juego: el malvado Kong el Kongquistador presenta tres desafíos consecutivos para poder derrotarlo: el ahorcado, un laberinto y un Donkey Kong.
+            <div class="centered-box" id="js-card0">
+                <h2>Inmobiliaria</h2>
+                <p>Aplicación de escritorio desarrollada como desafío final del curso de Java de Argentina Programa en la Universidad de La Punta (San Luis). Maneja altas/bajas de propiedades, propietarios e inquilinos. Búsqueda y registro de propiedades en alquiler. Historial de operaciones
                 </p>
                 <br>
-                <a href="./assets/img/portadaKong.jpg" target="_blank"><img class="img-works-big" id="biblioteca" src="./assets/img/portadaKong.jpg" alt="Kong portada de juego" ></a>
+                <a href="./assets/img/portadaBiblioteca.jpg" target="_blank">
+                <img class="img-works-big" id="biblioteca" src="./assets/img/portadaBiblioteca.jpg" alt="biblioteca consola"></a>
                 <br>
-                <p>Tecnologías utilizadas: C# .NET Core 3.1 IDE Visual Studio 2022</p>
+                <p>Tecnologías utilizadas: C#, .NET 6, IDE Visual Studio 2022. Modelado de clases con Miro</p>
+                <a href="https://miro.com/app/board/uXjVMXEAzn4=/?share_link_id=421363637269" target=“_blank”><img class="img-works-big" id="biblioteca-uml" src="./assets/img/bibliotecaUML.jpg" alt="biblioteca-uml" ></a>
                 <br/>
                 <p>Video presentación:</p>
-                <div class="video-works" style="position: relative; padding-bottom: 49.306625577812014%; height: 0;"><iframe src="https://www.loom.com/embed/88990928220a4dfa9b0b591d7852f2f0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                <div class="video-works" style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/40f9ed33634e4f8dbca0223823245501?sid=5e3c1368-14c1-4036-9d8b-dd769d276e59" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
                 <br/>
                 <p>Repositorio del código fuente en Github:</p>
-                <p><a href="https://github.com/Kinoniko-v1/Kong-el-Kongquistador"><img class="logo" src="./assets/img/code.svg" alt="coding logo"></a></p>
+                <p><a href="https://github.com/martindipeco/booksLibrary"><img class="logo" src="./assets/img/code.svg" alt="coding logo"></a></p>
                 <br/>
                 <p>Descargar archivo:</p>
-                <p><a href="https://martindipeco.itch.io/kong-el-kongquistador"><img class="logo" src="./assets/img/download.svg" alt="download logo"></a></p>
+                <p><a href="https://github.com/martindipeco/booksLibrary"><img class="logo" src="./assets/img/download.svg" alt="download logo"></a></p>
                 <br/>
                 <p>Volver a Proyectos</p>
                 <p><a href="./works.html"><img class="logo" src="./assets/img/back-arrow-2-svgrepo-com.svg" alt="back arrow"></a></p>
